@@ -58,23 +58,17 @@
             <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.0.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.2.0.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.0.RELEASE" />
-            <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.28" />
             <element id="library" level="project" name="Maven: org.springframework:spring-aspects:5.2.0.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.2.0.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.2.0.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.2.0.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.0.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.2.0.RELEASE" />
-            <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
-            <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
-            <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.12.1" />
-            <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.12.1" />
             <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.28" />
             <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.25" />
             <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.2.0.RELEASE" />
             <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.10.0" />
             <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.0" />
-            <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.10.0" />
             <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.0" />
             <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.0" />
             <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.10.0" />
@@ -89,6 +83,97 @@
             <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2" />
             <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.0.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.0.RELEASE" />
+            <element id="library" level="project" name="Maven: org.elasticsearch:elasticsearch:7.4.1" />
+            <element id="library" level="project" name="Maven: org.elasticsearch:elasticsearch-core:7.4.1" />
+            <element id="library" level="project" name="Maven: org.elasticsearch:elasticsearch-secure-sm:7.4.1" />
+            <element id="library" level="project" name="Maven: org.elasticsearch:elasticsearch-x-content:7.4.1" />
+            <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.10.0" />
+            <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.10.0" />
+            <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.10.0" />
+            <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.10.0" />
+            <element id="library" level="project" name="Maven: org.elasticsearch:elasticsearch-geo:7.4.1" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-core:8.2.0" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-analyzers-common:8.2.0" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-backward-codecs:8.2.0" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-grouping:8.2.0" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-highlighter:8.2.0" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-join:8.2.0" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-memory:8.2.0" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-misc:8.2.0" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queries:8.2.0" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queryparser:8.2.0" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-sandbox:8.2.0" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-spatial:8.2.0" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-spatial-extras:8.2.0" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-spatial3d:8.2.0" />
+            <element id="library" level="project" name="Maven: org.apache.lucene:lucene-suggest:8.2.0" />
+            <element id="library" level="project" name="Maven: org.elasticsearch:elasticsearch-cli:7.4.1" />
+            <element id="library" level="project" name="Maven: net.sf.jopt-simple:jopt-simple:5.0.2" />
+            <element id="library" level="project" name="Maven: com.carrotsearch:hppc:0.8.1" />
+            <element id="library" level="project" name="Maven: joda-time:joda-time:2.10.4" />
+            <element id="library" level="project" name="Maven: com.tdunning:t-digest:3.2" />
+            <element id="library" level="project" name="Maven: org.hdrhistogram:HdrHistogram:2.1.9" />
+            <element id="library" level="project" name="Maven: org.elasticsearch:jna:4.5.1" />
+            <element id="library" level="project" name="Maven: org.elasticsearch.client:transport:7.4.1" />
+            <element id="library" level="project" name="Maven: org.elasticsearch.plugin:transport-netty4-client:7.4.1" />
+            <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.1.42.Final" />
+            <element id="library" level="project" name="Maven: io.netty:netty-codec:4.1.42.Final" />
+            <element id="library" level="project" name="Maven: io.netty:netty-codec-http:4.1.42.Final" />
+            <element id="library" level="project" name="Maven: io.netty:netty-common:4.1.42.Final" />
+            <element id="library" level="project" name="Maven: io.netty:netty-handler:4.1.42.Final" />
+            <element id="library" level="project" name="Maven: io.netty:netty-resolver:4.1.42.Final" />
+            <element id="library" level="project" name="Maven: io.netty:netty-transport:4.1.42.Final" />
+            <element id="library" level="project" name="Maven: org.elasticsearch.plugin:reindex-client:7.4.1" />
+            <element id="library" level="project" name="Maven: org.elasticsearch.client:elasticsearch-rest-client:7.4.1" />
+            <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.10" />
+            <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.12" />
+            <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.4" />
+            <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.12" />
+            <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.13" />
+            <element id="library" level="project" name="Maven: org.elasticsearch:elasticsearch-ssl-config:7.4.1" />
+            <element id="library" level="project" name="Maven: org.elasticsearch.plugin:lang-mustache-client:7.4.1" />
+            <element id="library" level="project" name="Maven: com.github.spullara.mustache.java:compiler:0.9.3" />
+            <element id="library" level="project" name="Maven: org.elasticsearch.plugin:percolator-client:7.4.1" />
+            <element id="library" level="project" name="Maven: org.elasticsearch.plugin:parent-join-client:7.4.1" />
+            <element id="library" level="project" name="Maven: org.elasticsearch.plugin:rank-eval-client:7.4.1" />
+            <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.7" />
+            <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.7" />
+            <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-web:2.7" />
+            <element id="library" level="project" name="Maven: com.ubirch.util:elasticsearch-client-binary_2.11:3.3.1" />
+            <element id="library" level="project" name="Maven: org.scala-lang:scala-library:2.11.12" />
+            <element id="library" level="project" name="Maven: org.elasticsearch.client:x-pack-transport:6.7.1" />
+            <element id="library" level="project" name="Maven: com.ubirch.util:config_2.11:0.2.3" />
+            <element id="library" level="project" name="Maven: com.typesafe:config:1.3.3" />
+            <element id="library" level="project" name="Maven: com.ubirch.util:deep-check-model_2.11:0.3.1" />
+            <element id="library" level="project" name="Maven: org.json4s:json4s-native_2.11:3.6.0" />
+            <element id="library" level="project" name="Maven: com.ubirch.util:json_2.11:0.5.1" />
+            <element id="library" level="project" name="Maven: de.heikoseeberger:akka-http-json4s_2.11:1.21.0" />
+            <element id="library" level="project" name="Maven: com.typesafe.akka:akka-http_2.11:10.1.1" />
+            <element id="library" level="project" name="Maven: com.typesafe.akka:akka-http-core_2.11:10.1.1" />
+            <element id="library" level="project" name="Maven: com.typesafe.akka:akka-parsing_2.11:10.1.1" />
+            <element id="library" level="project" name="Maven: com.typesafe.akka:akka-stream_2.11:2.5.12" />
+            <element id="library" level="project" name="Maven: com.typesafe.akka:akka-actor_2.11:2.5.12" />
+            <element id="library" level="project" name="Maven: org.scala-lang.modules:scala-java8-compat_2.11:0.7.0" />
+            <element id="library" level="project" name="Maven: com.typesafe.akka:akka-protobuf_2.11:2.5.12" />
+            <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.3" />
+            <element id="library" level="project" name="Maven: com.typesafe:ssl-config-core_2.11:0.2.3" />
+            <element id="library" level="project" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.11:1.1.0" />
+            <element id="library" level="project" name="Maven: com.ubirch.util:uuid_2.11:0.1.3" />
+            <element id="library" level="project" name="Maven: io.jvm.uuid:scala-uuid_2.11:0.2.3" />
+            <element id="library" level="project" name="Maven: org.json4s:json4s-core_2.11:3.6.0" />
+            <element id="library" level="project" name="Maven: org.json4s:json4s-ast_2.11:3.6.0" />
+            <element id="library" level="project" name="Maven: org.json4s:json4s-scalap_2.11:3.6.0" />
+            <element id="library" level="project" name="Maven: com.thoughtworks.paranamer:paranamer:2.8" />
+            <element id="library" level="project" name="Maven: org.json4s:json4s-jackson_2.11:3.6.0" />
+            <element id="library" level="project" name="Maven: org.json4s:json4s-ext_2.11:3.6.0" />
+            <element id="library" level="project" name="Maven: org.joda:joda-convert:2.1.1" />
+            <element id="library" level="project" name="Maven: com.typesafe.scala-logging:scala-logging-slf4j_2.11:2.1.2" />
+            <element id="library" level="project" name="Maven: com.typesafe.scala-logging:scala-logging-api_2.11:2.1.2" />
+            <element id="library" level="project" name="Maven: org.scala-lang:scala-reflect:2.11.0" />
+            <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.28" />
+            <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
+            <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
+            <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.12.1" />
           </element>
         </element>
         <element id="directory" name="META-INF">
@@ -188,6 +273,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.carrotsearch:hppc:0.8.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/carrotsearch/hppc/0.8.1/hppc-0.8.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/carrotsearch/hppc/0.8.1/hppc-0.8.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/carrotsearch/hppc/0.8.1/hppc-0.8.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.0">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar!/" />
@@ -219,6 +315,39 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.10.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.0/jackson-dataformat-cbor-2.10.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.0/jackson-dataformat-cbor-2.10.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.0/jackson-dataformat-cbor-2.10.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.10.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.10.0/jackson-dataformat-smile-2.10.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.10.0/jackson-dataformat-smile-2.10.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.10.0/jackson-dataformat-smile-2.10.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.10.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.0/jackson-dataformat-yaml-2.10.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.0/jackson-dataformat-yaml-2.10.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.0/jackson-dataformat-yaml-2.10.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.0">
@@ -265,6 +394,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/classmate/1.5.0/classmate-1.5.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.github.spullara.mustache.java:compiler:0.9.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/spullara/mustache/java/compiler/0.9.3/compiler-0.9.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/spullara/mustache/java/compiler/0.9.3/compiler-0.9.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/github/spullara/mustache/java/compiler/0.9.3/compiler-0.9.3-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.jayway.jsonpath:json-path:2.4.0">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar!/" />
@@ -298,6 +438,193 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.tdunning:t-digest:3.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/tdunning/t-digest/3.2/t-digest-3.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/tdunning/t-digest/3.2/t-digest-3.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/tdunning/t-digest/3.2/t-digest-3.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.thoughtworks.paranamer:paranamer:2.8">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.typesafe.akka:akka-actor_2.11:2.5.12">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.11/2.5.12/akka-actor_2.11-2.5.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.11/2.5.12/akka-actor_2.11-2.5.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.11/2.5.12/akka-actor_2.11-2.5.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.typesafe.akka:akka-http-core_2.11:10.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-http-core_2.11/10.1.1/akka-http-core_2.11-10.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-http-core_2.11/10.1.1/akka-http-core_2.11-10.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-http-core_2.11/10.1.1/akka-http-core_2.11-10.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.typesafe.akka:akka-http_2.11:10.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-http_2.11/10.1.1/akka-http_2.11-10.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-http_2.11/10.1.1/akka-http_2.11-10.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-http_2.11/10.1.1/akka-http_2.11-10.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.typesafe.akka:akka-parsing_2.11:10.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-parsing_2.11/10.1.1/akka-parsing_2.11-10.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-parsing_2.11/10.1.1/akka-parsing_2.11-10.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-parsing_2.11/10.1.1/akka-parsing_2.11-10.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.typesafe.akka:akka-protobuf_2.11:2.5.12">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-protobuf_2.11/2.5.12/akka-protobuf_2.11-2.5.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-protobuf_2.11/2.5.12/akka-protobuf_2.11-2.5.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-protobuf_2.11/2.5.12/akka-protobuf_2.11-2.5.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.typesafe.akka:akka-stream_2.11:2.5.12">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-stream_2.11/2.5.12/akka-stream_2.11-2.5.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-stream_2.11/2.5.12/akka-stream_2.11-2.5.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-stream_2.11/2.5.12/akka-stream_2.11-2.5.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.typesafe.scala-logging:scala-logging-api_2.11:2.1.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/scala-logging/scala-logging-api_2.11/2.1.2/scala-logging-api_2.11-2.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/scala-logging/scala-logging-api_2.11/2.1.2/scala-logging-api_2.11-2.1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/scala-logging/scala-logging-api_2.11/2.1.2/scala-logging-api_2.11-2.1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.typesafe.scala-logging:scala-logging-slf4j_2.11:2.1.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.1.2/scala-logging-slf4j_2.11-2.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.1.2/scala-logging-slf4j_2.11-2.1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.1.2/scala-logging-slf4j_2.11-2.1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.typesafe:config:1.3.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/config/1.3.3/config-1.3.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/config/1.3.3/config-1.3.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/config/1.3.3/config-1.3.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.typesafe:ssl-config-core_2.11:0.2.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/ssl-config-core_2.11/0.2.3/ssl-config-core_2.11-0.2.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/ssl-config-core_2.11/0.2.3/ssl-config-core_2.11-0.2.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/ssl-config-core_2.11/0.2.3/ssl-config-core_2.11-0.2.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.ubirch.util:config_2.11:0.2.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/config_2.11/0.2.3/config_2.11-0.2.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/config_2.11/0.2.3/config_2.11-0.2.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/config_2.11/0.2.3/config_2.11-0.2.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.ubirch.util:deep-check-model_2.11:0.3.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/deep-check-model_2.11/0.3.1/deep-check-model_2.11-0.3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/deep-check-model_2.11/0.3.1/deep-check-model_2.11-0.3.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/deep-check-model_2.11/0.3.1/deep-check-model_2.11-0.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.ubirch.util:elasticsearch-client-binary_2.11:3.3.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/elasticsearch-client-binary_2.11/3.3.1/elasticsearch-client-binary_2.11-3.3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/elasticsearch-client-binary_2.11/3.3.1/elasticsearch-client-binary_2.11-3.3.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/elasticsearch-client-binary_2.11/3.3.1/elasticsearch-client-binary_2.11-3.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.ubirch.util:json_2.11:0.5.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/json_2.11/0.5.1/json_2.11-0.5.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/json_2.11/0.5.1/json_2.11-0.5.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/json_2.11/0.5.1/json_2.11-0.5.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.ubirch.util:uuid_2.11:0.1.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/uuid_2.11/0.1.3/uuid_2.11-0.1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/uuid_2.11/0.1.3/uuid_2.11-0.1.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/ubirch/util/uuid_2.11/0.1.3/uuid_2.11-0.1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/" />
@@ -318,6 +645,116 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.4.1/HikariCP-3.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-codec:commons-codec:1.13">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.13/commons-codec-1.13.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.13/commons-codec-1.13-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.13/commons-codec-1.13-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: de.heikoseeberger:akka-http-json4s_2.11:1.21.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/de/heikoseeberger/akka-http-json4s_2.11/1.21.0/akka-http-json4s_2.11-1.21.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/de/heikoseeberger/akka-http-json4s_2.11/1.21.0/akka-http-json4s_2.11-1.21.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/de/heikoseeberger/akka-http-json4s_2.11/1.21.0/akka-http-json4s_2.11-1.21.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.jvm.uuid:scala-uuid_2.11:0.2.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/jvm/uuid/scala-uuid_2.11/0.2.3/scala-uuid_2.11-0.2.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/jvm/uuid/scala-uuid_2.11/0.2.3/scala-uuid_2.11-0.2.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/jvm/uuid/scala-uuid_2.11/0.2.3/scala-uuid_2.11-0.2.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-buffer:4.1.42.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.42.Final/netty-buffer-4.1.42.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.42.Final/netty-buffer-4.1.42.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.42.Final/netty-buffer-4.1.42.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-codec-http:4.1.42.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-codec:4.1.42.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.42.Final/netty-codec-4.1.42.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.42.Final/netty-codec-4.1.42.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.42.Final/netty-codec-4.1.42.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-common:4.1.42.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.42.Final/netty-common-4.1.42.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-handler:4.1.42.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.42.Final/netty-handler-4.1.42.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.42.Final/netty-handler-4.1.42.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.42.Final/netty-handler-4.1.42.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-resolver:4.1.42.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.netty:netty-transport:4.1.42.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.42.Final/netty-transport-4.1.42.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.42.Final/netty-transport-4.1.42.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.42.Final/netty-transport-4.1.42.Final-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: jakarta.activation:jakarta.activation-api:1.2.1">
@@ -386,6 +823,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: joda-time:joda-time:2.10.4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.4/joda-time-2.10.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.4/joda-time-2.10.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.4/joda-time-2.10.4-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: mysql:mysql-connector-java:8.0.18">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.18/mysql-connector-java-8.0.18.jar!/" />
@@ -441,15 +889,81 @@
         <root url="jar://$MAVEN_REPOSITORY$/net/minidev/json-smart/2.3/json-smart-2.3-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.apache.logging.log4j:log4j-api:2.12.1">
+    <library name="Maven: net.sf.jopt-simple:jopt-simple:5.0.2">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/net/sf/jopt-simple/jopt-simple/5.0.2/jopt-simple-5.0.2.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/net/sf/jopt-simple/jopt-simple/5.0.2/jopt-simple-5.0.2-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/net/sf/jopt-simple/jopt-simple/5.0.2/jopt-simple-5.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.httpcomponents:httpclient:4.5.10">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.12">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore-nio/4.4.12/httpcore-nio-4.4.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore-nio/4.4.12/httpcore-nio-4.4.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore-nio/4.4.12/httpcore-nio-4.4.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.httpcomponents:httpcore:4.4.12">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.logging.log4j:log4j-api:2.7">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.7/log4j-api-2.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.7/log4j-api-2.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.7/log4j-api-2.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.logging.log4j:log4j-core:2.7">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.7/log4j-core-2.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.7/log4j-core-2.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.7/log4j-core-2.7-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.12.1">
@@ -461,6 +975,182 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.12.1/log4j-to-slf4j-2.12.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.logging.log4j:log4j-web:2.7">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-web/2.7/log4j-web-2.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-web/2.7/log4j-web-2.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-web/2.7/log4j-web-2.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-analyzers-common:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-analyzers-common/8.2.0/lucene-analyzers-common-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-analyzers-common/8.2.0/lucene-analyzers-common-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-analyzers-common/8.2.0/lucene-analyzers-common-8.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-backward-codecs:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-backward-codecs/8.2.0/lucene-backward-codecs-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-backward-codecs/8.2.0/lucene-backward-codecs-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-backward-codecs/8.2.0/lucene-backward-codecs-8.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-core:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/8.2.0/lucene-core-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/8.2.0/lucene-core-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/8.2.0/lucene-core-8.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-grouping:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-grouping/8.2.0/lucene-grouping-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-grouping/8.2.0/lucene-grouping-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-grouping/8.2.0/lucene-grouping-8.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-highlighter:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-highlighter/8.2.0/lucene-highlighter-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-highlighter/8.2.0/lucene-highlighter-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-highlighter/8.2.0/lucene-highlighter-8.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-join:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-join/8.2.0/lucene-join-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-join/8.2.0/lucene-join-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-join/8.2.0/lucene-join-8.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-memory:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-memory/8.2.0/lucene-memory-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-memory/8.2.0/lucene-memory-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-memory/8.2.0/lucene-memory-8.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-misc:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-misc/8.2.0/lucene-misc-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-misc/8.2.0/lucene-misc-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-misc/8.2.0/lucene-misc-8.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-queries:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queries/8.2.0/lucene-queries-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queries/8.2.0/lucene-queries-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queries/8.2.0/lucene-queries-8.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-queryparser:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queryparser/8.2.0/lucene-queryparser-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queryparser/8.2.0/lucene-queryparser-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queryparser/8.2.0/lucene-queryparser-8.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-sandbox:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-sandbox/8.2.0/lucene-sandbox-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-sandbox/8.2.0/lucene-sandbox-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-sandbox/8.2.0/lucene-sandbox-8.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-spatial-extras:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial-extras/8.2.0/lucene-spatial-extras-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial-extras/8.2.0/lucene-spatial-extras-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial-extras/8.2.0/lucene-spatial-extras-8.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-spatial3d:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial3d/8.2.0/lucene-spatial3d-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial3d/8.2.0/lucene-spatial3d-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial3d/8.2.0/lucene-spatial3d-8.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-spatial:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial/8.2.0/lucene-spatial-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial/8.2.0/lucene-spatial-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial/8.2.0/lucene-spatial-8.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.lucene:lucene-suggest:8.2.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-suggest/8.2.0/lucene-suggest-8.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-suggest/8.2.0/lucene-suggest-8.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-suggest/8.2.0/lucene-suggest-8.2.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.27">
@@ -540,6 +1230,193 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/dom4j/dom4j/2.1.1/dom4j-2.1.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.elasticsearch.client:elasticsearch-rest-client:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-client/7.4.1/elasticsearch-rest-client-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-client/7.4.1/elasticsearch-rest-client-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-client/7.4.1/elasticsearch-rest-client-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch.client:transport:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/transport/7.4.1/transport-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/transport/7.4.1/transport-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/transport/7.4.1/transport-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch.client:x-pack-transport:6.7.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/x-pack-transport/6.7.1/x-pack-transport-6.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/x-pack-transport/6.7.1/x-pack-transport-6.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/x-pack-transport/6.7.1/x-pack-transport-6.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch.plugin:lang-mustache-client:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/lang-mustache-client/7.4.1/lang-mustache-client-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/lang-mustache-client/7.4.1/lang-mustache-client-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/lang-mustache-client/7.4.1/lang-mustache-client-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch.plugin:parent-join-client:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/parent-join-client/7.4.1/parent-join-client-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/parent-join-client/7.4.1/parent-join-client-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/parent-join-client/7.4.1/parent-join-client-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch.plugin:percolator-client:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/percolator-client/7.4.1/percolator-client-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/percolator-client/7.4.1/percolator-client-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/percolator-client/7.4.1/percolator-client-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch.plugin:rank-eval-client:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/rank-eval-client/7.4.1/rank-eval-client-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/rank-eval-client/7.4.1/rank-eval-client-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/rank-eval-client/7.4.1/rank-eval-client-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch.plugin:reindex-client:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/reindex-client/7.4.1/reindex-client-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/reindex-client/7.4.1/reindex-client-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/reindex-client/7.4.1/reindex-client-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch.plugin:transport-netty4-client:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/transport-netty4-client/7.4.1/transport-netty4-client-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/transport-netty4-client/7.4.1/transport-netty4-client-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/transport-netty4-client/7.4.1/transport-netty4-client-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch:elasticsearch-cli:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-cli/7.4.1/elasticsearch-cli-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-cli/7.4.1/elasticsearch-cli-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-cli/7.4.1/elasticsearch-cli-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch:elasticsearch-core:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-core/7.4.1/elasticsearch-core-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-core/7.4.1/elasticsearch-core-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-core/7.4.1/elasticsearch-core-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch:elasticsearch-geo:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-geo/7.4.1/elasticsearch-geo-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-geo/7.4.1/elasticsearch-geo-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-geo/7.4.1/elasticsearch-geo-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch:elasticsearch-secure-sm:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-secure-sm/7.4.1/elasticsearch-secure-sm-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-secure-sm/7.4.1/elasticsearch-secure-sm-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-secure-sm/7.4.1/elasticsearch-secure-sm-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch:elasticsearch-ssl-config:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-ssl-config/7.4.1/elasticsearch-ssl-config-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-ssl-config/7.4.1/elasticsearch-ssl-config-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-ssl-config/7.4.1/elasticsearch-ssl-config-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch:elasticsearch-x-content:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-x-content/7.4.1/elasticsearch-x-content-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-x-content/7.4.1/elasticsearch-x-content-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-x-content/7.4.1/elasticsearch-x-content-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch:elasticsearch:7.4.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.4.1/elasticsearch-7.4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.4.1/elasticsearch-7.4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/7.4.1/elasticsearch-7.4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.elasticsearch:jna:4.5.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/jna/4.5.1/jna-4.5.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/jna/4.5.1/jna-4.5.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/jna/4.5.1/jna-4.5.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.glassfish.jaxb:jaxb-runtime:2.3.2">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar!/" />
@@ -571,6 +1448,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest/2.1/hamcrest-2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.hdrhistogram:HdrHistogram:2.1.9">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.hibernate.common:hibernate-commons-annotations:5.1.0.Final">
@@ -637,6 +1525,83 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.joda:joda-convert:2.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/joda/joda-convert/2.1.1/joda-convert-2.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/joda/joda-convert/2.1.1/joda-convert-2.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/joda/joda-convert/2.1.1/joda-convert-2.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.json4s:json4s-ast_2.11:3.6.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-ast_2.11/3.6.0/json4s-ast_2.11-3.6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-ast_2.11/3.6.0/json4s-ast_2.11-3.6.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-ast_2.11/3.6.0/json4s-ast_2.11-3.6.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.json4s:json4s-core_2.11:3.6.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-core_2.11/3.6.0/json4s-core_2.11-3.6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-core_2.11/3.6.0/json4s-core_2.11-3.6.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-core_2.11/3.6.0/json4s-core_2.11-3.6.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.json4s:json4s-ext_2.11:3.6.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-ext_2.11/3.6.0/json4s-ext_2.11-3.6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-ext_2.11/3.6.0/json4s-ext_2.11-3.6.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-ext_2.11/3.6.0/json4s-ext_2.11-3.6.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.json4s:json4s-jackson_2.11:3.6.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-jackson_2.11/3.6.0/json4s-jackson_2.11-3.6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-jackson_2.11/3.6.0/json4s-jackson_2.11-3.6.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-jackson_2.11/3.6.0/json4s-jackson_2.11-3.6.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.json4s:json4s-native_2.11:3.6.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-native_2.11/3.6.0/json4s-native_2.11-3.6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-native_2.11/3.6.0/json4s-native_2.11-3.6.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-native_2.11/3.6.0/json4s-native_2.11-3.6.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.json4s:json4s-scalap_2.11:3.6.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-scalap_2.11/3.6.0/json4s-scalap_2.11-3.6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-scalap_2.11/3.6.0/json4s-scalap_2.11-3.6.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-scalap_2.11/3.6.0/json4s-scalap_2.11-3.6.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.junit.jupiter:junit-jupiter-api:5.5.2">
@@ -769,6 +1734,61 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.reactivestreams:reactive-streams:1.0.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.scala-lang.modules:scala-java8-compat_2.11:0.7.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.scala-lang.modules:scala-parser-combinators_2.11:1.1.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-parser-combinators_2.11/1.1.0/scala-parser-combinators_2.11-1.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-parser-combinators_2.11/1.1.0/scala-parser-combinators_2.11-1.1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-parser-combinators_2.11/1.1.0/scala-parser-combinators_2.11-1.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.scala-lang:scala-library:2.11.12">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.scala-lang:scala-reflect:2.11.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.skyscreamer:jsonassert:1.5.0">
