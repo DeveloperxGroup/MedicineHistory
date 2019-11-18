@@ -2,18 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27f6ad52-6488-47ed-b16e-87a8848f4c51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/developerxgroup/medicinehistory/configurations/config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/developerxgroup/medicinehistory/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/developerxgroup/medicinehistory/model/UserMobileToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/developerxgroup/medicinehistory/model/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/developerxgroup/medicinehistory/repo/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/developerxgroup/medicinehistory/service/UsersService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medicinehistory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/medicinehistory.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medicinehistory.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/medicinehistory.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medicinehistory.iws" beforeDir="false" afterPath="$PROJECT_DIR$/medicinehistory.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/developerxgroup/medicinehistory/MedicineHistoryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/developerxgroup/medicinehistory/MedicineHistoryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/developerxgroup/medicinehistory/configurations/config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/developerxgroup/medicinehistory/configurations/config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/developerxgroup/medicinehistory/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/developerxgroup/medicinehistory/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/developerxgroup/medicinehistory/model/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/developerxgroup/medicinehistory/MedicineHistoryApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/developerxgroup/medicinehistory/MedicineHistoryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/developerxgroup/medicinehistory/MedicineHistoryApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/developerxgroup/medicinehistory/configurations/config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/developerxgroup/medicinehistory/configurations/config.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/developerxgroup/medicinehistory/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/developerxgroup/medicinehistory/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/developerxgroup/medicinehistory/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/developerxgroup/medicinehistory/MedicineHistoryApplicationTests.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +31,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,18 +73,31 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="872149d6-d005-47ab-8298-2f158ec7b56a" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/spring-boot-sample-data-eclipselink-master" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.developerxgroup.medicinehistory.service" />
+      <recent name="com.developerxgroup.medicinehistory.repo" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.developerxgroup.medicinehistory.model" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Personal\Projects\MedicineHistory\app" />
     </key>
@@ -79,7 +114,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.MedicineHistoryApplication">
+    <configuration name="All in medicinehistory (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medicinehistory" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in medicinehistory (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medicinehistory" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in medicinehistory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medicinehistory" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MedicineHistoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="medicinehistory" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.developerxgroup.medicinehistory.MedicineHistoryApplication" />
@@ -87,6 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in medicinehistory (2)" />
+        <item itemvalue="JUnit.All in medicinehistory (1)" />
+        <item itemvalue="JUnit.All in medicinehistory" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -98,7 +164,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572005960492</updated>
-      <workItem from="1572005962277" duration="15732000" />
+      <workItem from="1572005962277" duration="46744000" />
+      <workItem from="1573314630673" duration="525000" />
+      <workItem from="1574067966156" duration="3168000" />
     </task>
     <servers />
   </component>
@@ -110,7 +178,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

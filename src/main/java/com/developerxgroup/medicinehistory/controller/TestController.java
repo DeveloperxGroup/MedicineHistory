@@ -1,6 +1,7 @@
 package com.developerxgroup.medicinehistory.controller;
 
 import com.developerxgroup.medicinehistory.model.*;
+import com.developerxgroup.medicinehistory.service.*;
 import org.elasticsearch.action.delete.*;
 import org.elasticsearch.action.get.*;
 import org.elasticsearch.action.index.*;
@@ -9,14 +10,15 @@ import org.elasticsearch.action.update.*;
 import org.elasticsearch.client.*;
 import org.elasticsearch.index.query.*;
 import org.elasticsearch.search.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.*;
+import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.*;
 import java.io.*;
 import java.util.*;
 import java.util.concurrent.*;
+import java.util.logging.*;
 
 import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 
@@ -25,14 +27,43 @@ import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 public class TestController {
     @Autowired
     Client client;
+    @Autowired
+    UsersService usersService;
+    @GetMapping("/getUserByID/{id}")
+    public ResponseEntity getUserByID(@PathVariable String id) {
+        try {
+            System.out.println("***********************  "+usersService.findAll());
+            Users users = usersService.findUsersByID(Integer.parseInt(id));
+            if (users != null) {
+                return new ResponseEntity<>(users, HttpStatus.CREATED);
+            }
+            return new ResponseEntity<>("INVALID_COUNTRY_CODE", HttpStatus.INTERNAL_SERVER_ERROR);
+        } catch (Exception ex) {
+            Logger.getLogger(TestController.class.getName()).log(Level.SEVERE, null, ex);
+            return new ResponseEntity<>("INTERNAL_ERROR", HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+    @PostMapping("/updateUser")
+    public ResponseEntity updateUser(@Valid @RequestBody  Users user) throws IOException {
+        try {
+            Users users = usersService.updateser(user);
+            if (users != null) {
+                return new ResponseEntity<>(users, HttpStatus.CREATED);
+            }
+            return new ResponseEntity<>("FAILED TO UPDATE", HttpStatus.INTERNAL_SERVER_ERROR);
+        } catch (Exception ex) {
+            Logger.getLogger(TestController.class.getName()).log(Level.SEVERE, null, ex);
+            return new ResponseEntity<>("INTERNAL_ERROR", HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
     @PostMapping("/create")
-    public String create(@RequestBody User user) throws IOException {
-        IndexResponse response = client.prepareIndex("users", "employee", user.getUserId())
+    public String create(@RequestBody Users user) throws IOException {
+        IndexResponse response = client.prepareIndex("users", "employee", user.getId()+"")
                 .setSource(jsonBuilder()
-                        .startObject()
-                        .field("name", user.getName())
-                        .field("userSettings", user.getUserSettings())
-                        .endObject()
+                                .startObject()
+                                .field("name", user.getFname())
+//                        .field("userSettings", user.getUserSettings())
+                                .endObject()
                 )
                 .get();
         System.out.println("response id:"+response.getId());
